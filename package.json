@@ -10,7 +10,8 @@
     "server": "node --env-file-if-exists=.env --import tsx server/index.ts",
     "test": "tsx --test tests/*.test.ts",
     "benchmark": "tsx scripts/benchmark.ts",
-    "replay": "tsx scripts/replay.ts"
+    "replay": "tsx scripts/replay.ts",
+    "evaluate:mappings": "tsx scripts/evaluate-mappings.ts"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",

@@ -4,6 +4,8 @@
 
 This is an original AI-assisted project developed for consideration in the Nebius × NVIDIA Global AI Hackathon. It has **not been registered or submitted**. The live Nebius integration is implemented but **has not yet been exercised with real credentials**; local matching is visibly labelled and is not presented as a model response. No award or revenue is claimed.
 
+[Try the public local-mode demo](https://luoy16002-svg.github.io/importproof/). Files are processed in your browser. The public static demo does not have a model backend; the downloadable project contains the optional local server.
+
 ## Run locally
 
 Node.js 24 or later. No paid service or API key is needed for the entire local workflow.
@@ -42,9 +44,12 @@ npm test
 npm run build
 npm run benchmark
 npm run replay -- artifacts/demo-bundle
+npm run evaluate:mappings
 ```
 
 The evaluation corpus is synthetic and seeded. Two independently generated source conventions have 1,000 rows each, with known valid target strings and known injected faults. It measures deterministic engine correctness with a supplied recipe; it does **not** establish model superiority, user adoption or prize competitiveness. Full results are in `artifacts/engine-evaluation.json`.
+
+The separate mapping challenge set has eight hand-authored fixtures: familiar headers, semantic multilingual/warehouse headers, and cases requiring abstention. They were fixed before any live model response; this is a small exploratory comparison, not an unbiased accuracy estimate. The default command records only the local baseline and makes no network calls. After verifying free credits and enabling the capped local server, `npm run evaluate:mappings -- --live` requests at most eight real proposals; `--case canonical --live` runs just one. The script uses the server's persistent call cap and saves real model metadata separately. It never reports missing model results as successes. Source-column selection is scored separately from locale and row validation.
 
 ## Limits and privacy
 

@@ -25,7 +25,13 @@ Tested the app at http://127.0.0.1:5187 in a real browser; screenshots inspected
 11. At mobile width the page has no horizontal body overflow (document clientWidth and body scrollWidth were both 375, within a 390px browser viewport with scrollbar). The data table has its own deliberate horizontal scroll. Rule inputs stack correctly. Desktop sample restored afterwards.
 12. The live model button is disabled and labelled “Live model not configured”; no fabricated inference result is shown.
 
-## Not verified / not completed
+## Public deployment and mapping baseline
+
+The initial public commit `408037c7f875330ad836c13a4a30b15aef943a7a` passed both verify and deploy jobs in [Actions run 35956951646](https://github.com/luoy16002-svg/importproof/actions/runs/35956951646). Tests, production build, the seeded corpus and both replay fixtures passed on Ubuntu, independently of the Windows working directory. The public static workbench at https://luoy16002-svg.github.io/importproof/ was opened and visually checked in Chrome. Default 22/10 counts, a reviewed correction to 23/9, Undo back to 22/10, and the mapping page worked. Live inference remains disabled. Captured warnings were from a browser extension, not the application.
+
+A separate eight-case hand-authored mapping set was fixed before any real model output. Baseline-only execution made zero model/network calls. It selected 17 of 41 identifiable source fields correctly, left 24 unresolved, made all seven expected abstentions and assigned no incorrect non-null source. Familiar English cases are reported separately from deliberately challenging semantic names. These results show the current dictionary's limits on these particular fixtures, not a universal accuracy estimate. Model results remain null. The fixture and scoring scope are public; do not tune against them and keep calling the comparison unseen.
+
+## Remaining limitations
 
 - Actual Nebius model invocation, credits, model choice and model-mapping effectiveness are not verified.
 - Event entry, public video, judging and payment are not complete.

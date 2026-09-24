@@ -21,6 +21,7 @@ jobs:
       - run: npm run benchmark
       - run: npm run replay -- artifacts/demo-bundle
       - run: npm run replay -- artifacts/browser-export-bom
+      - run: npm run evaluate:mappings
       - uses: actions/upload-pages-artifact@v4
         if: github.event_name != 'pull_request'
         with:

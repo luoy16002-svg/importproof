@@ -1,0 +1,404 @@
+{
+  "generatedAt": "2026-09-24T04:52:55.588Z",
+  "fixtureSha256": "3cc70c73abfcf9f96c99437b4cbe49f0676c92cc1a9cf9cd4573adc33622e198",
+  "source": "Eight hand-authored synthetic cases fixed before any real model response; not an independent, randomized or customer dataset.",
+  "scope": "Scores source-column selection only, with no raw sample values. Correct abstention, unresolved mapping and wrong non-null mapping are reported separately. Does not measure locale inference, aliases or accepted-row correctness. Never tune the model prompt or synonyms against this set without disclosing it.",
+  "mode": "baseline_only_no_network_calls",
+  "casesPlanned": 8,
+  "proposalRequestsAttempted": 0,
+  "stoppedAfterFailure": false,
+  "results": [
+    {
+      "id": "canonical",
+      "group": "familiar",
+      "baseline": {
+        "fields": [
+          {
+            "target": "sku",
+            "expected": "sku",
+            "proposed": "sku",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "product_name",
+            "expected": "product_name",
+            "proposed": "product_name",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "quantity",
+            "expected": "quantity",
+            "proposed": "quantity",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "unit_price",
+            "expected": "unit_price",
+            "proposed": "unit_price",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "restock_date",
+            "expected": "restock_date",
+            "proposed": "restock_date",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "category",
+            "expected": "category",
+            "proposed": "category",
+            "outcome": "correct_mapping"
+          }
+        ],
+        "correctMappings": 6,
+        "correctAbstentions": 0,
+        "unresolvedMappings": 0,
+        "wrongNonNullMappings": 0
+      },
+      "model": null
+    },
+    {
+      "id": "reordered-aliases",
+      "group": "familiar",
+      "baseline": {
+        "fields": [
+          {
+            "target": "sku",
+            "expected": "Item code",
+            "proposed": "Item code",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "product_name",
+            "expected": "Item name",
+            "proposed": "Item name",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "quantity",
+            "expected": "Available",
+            "proposed": "Available",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "unit_price",
+            "expected": "Cost (EUR)",
+            "proposed": "Cost (EUR)",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "restock_date",
+            "expected": "ETA",
+            "proposed": "ETA",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "category",
+            "expected": "Group",
+            "proposed": "Group",
+            "outcome": "correct_mapping"
+          }
+        ],
+        "correctMappings": 6,
+        "correctAbstentions": 0,
+        "unresolvedMappings": 0,
+        "wrongNonNullMappings": 0
+      },
+      "model": null
+    },
+    {
+      "id": "french-inventory",
+      "group": "semantic",
+      "baseline": {
+        "fields": [
+          {
+            "target": "sku",
+            "expected": "Référence produit",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "product_name",
+            "expected": "Nom du produit",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "quantity",
+            "expected": "Quantité en stock",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "unit_price",
+            "expected": "Prix unitaire EUR",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "restock_date",
+            "expected": "Date de réapprovisionnement",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "category",
+            "expected": "Catégorie",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          }
+        ],
+        "correctMappings": 0,
+        "correctAbstentions": 0,
+        "unresolvedMappings": 6,
+        "wrongNonNullMappings": 0
+      },
+      "model": null
+    },
+    {
+      "id": "german-inventory",
+      "group": "semantic",
+      "baseline": {
+        "fields": [
+          {
+            "target": "sku",
+            "expected": "Artikelnummer",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "product_name",
+            "expected": "Produktname",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "quantity",
+            "expected": "Lagerbestand",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "unit_price",
+            "expected": "Stückpreis EUR",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "restock_date",
+            "expected": "Nachlieferdatum",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "category",
+            "expected": "Produktkategorie",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          }
+        ],
+        "correctMappings": 0,
+        "correctAbstentions": 0,
+        "unresolvedMappings": 6,
+        "wrongNonNullMappings": 0
+      },
+      "model": null
+    },
+    {
+      "id": "chinese-inventory",
+      "group": "semantic",
+      "baseline": {
+        "fields": [
+          {
+            "target": "sku",
+            "expected": "商品编码",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "product_name",
+            "expected": "商品名称",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "quantity",
+            "expected": "库存数量",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "unit_price",
+            "expected": "单价（欧元）",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "restock_date",
+            "expected": "补货日期",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "category",
+            "expected": "商品类别",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          }
+        ],
+        "correctMappings": 0,
+        "correctAbstentions": 0,
+        "unresolvedMappings": 6,
+        "wrongNonNullMappings": 0
+      },
+      "model": null
+    },
+    {
+      "id": "warehouse-wording",
+      "group": "semantic",
+      "baseline": {
+        "fields": [
+          {
+            "target": "sku",
+            "expected": "Stock keeping identifier",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "product_name",
+            "expected": "Merchandise label",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "quantity",
+            "expected": "Units currently on hand",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "unit_price",
+            "expected": "Per-item selling price in euros",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "restock_date",
+            "expected": "Next replenishment date",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          },
+          {
+            "target": "category",
+            "expected": "Merchandise category",
+            "proposed": null,
+            "outcome": "unresolved_mapping"
+          }
+        ],
+        "correctMappings": 0,
+        "correctAbstentions": 0,
+        "unresolvedMappings": 6,
+        "wrongNonNullMappings": 0
+      },
+      "model": null
+    },
+    {
+      "id": "missing-optional-date",
+      "group": "abstention",
+      "baseline": {
+        "fields": [
+          {
+            "target": "sku",
+            "expected": "sku",
+            "proposed": "sku",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "product_name",
+            "expected": "product_name",
+            "proposed": "product_name",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "quantity",
+            "expected": "quantity",
+            "proposed": "quantity",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "unit_price",
+            "expected": "unit_price",
+            "proposed": "unit_price",
+            "outcome": "correct_mapping"
+          },
+          {
+            "target": "restock_date",
+            "expected": null,
+            "proposed": null,
+            "outcome": "correct_abstention"
+          },
+          {
+            "target": "category",
+            "expected": "category",
+            "proposed": "category",
+            "outcome": "correct_mapping"
+          }
+        ],
+        "correctMappings": 5,
+        "correctAbstentions": 1,
+        "unresolvedMappings": 0,
+        "wrongNonNullMappings": 0
+      },
+      "model": null
+    },
+    {
+      "id": "opaque-columns",
+      "group": "abstention",
+      "baseline": {
+        "fields": [
+          {
+            "target": "sku",
+            "expected": null,
+            "proposed": null,
+            "outcome": "correct_abstention"
+          },
+          {
+            "target": "product_name",
+            "expected": null,
+            "proposed": null,
+            "outcome": "correct_abstention"
+          },
+          {
+            "target": "quantity",
+            "expected": null,
+            "proposed": null,
+            "outcome": "correct_abstention"
+          },
+          {
+            "target": "unit_price",
+            "expected": null,
+            "proposed": null,
+            "outcome": "correct_abstention"
+          },
+          {
+            "target": "restock_date",
+            "expected": null,
+            "proposed": null,
+            "outcome": "correct_abstention"
+          },
+          {
+            "target": "category",
+            "expected": null,
+            "proposed": null,
+            "outcome": "correct_abstention"
+          }
+        ],
+        "correctMappings": 0,
+        "correctAbstentions": 6,
+        "unresolvedMappings": 0,
+        "wrongNonNullMappings": 0
+      },
+      "model": null
+    }
+  ]
+}
