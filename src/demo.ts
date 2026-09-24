@@ -1,0 +1,50 @@
+import Papa from "papaparse";
+import { localPlan, parseCSV, type Plan } from "./engine";
+
+const products = [
+  ["LT-001", "Arc table lamp", "12", "€ 49,90", "2026-10-04", "lighting"],
+  ["LT-002", "Paper lantern", "8", "24,50", "2026-10-08", "lighting"],
+  ["FN-003", "Oak side table", "04", "129,00", "14/10/2026", "furniture"],
+  ["AC-004", "Stoneware tray", "20", "18,00", "", "accessories"],
+  ["LT-005", "Brass reading light", "6", "85,75", "04/10/2026", "lighting"],
+  ["FN-006", "Linen stool", "three", "65,00", "2026-10-15", "furniture"],
+  ["AC-007", "  Woven basket  ", "15", "32,40", "2026-10-12", "accessories"],
+  ["LT-008", "Globe pendant", "7", "118,00", "2026-10-18", "lighting"],
+  ["AC-009", "Glass carafe", "10", "22,90", "", "accessories"],
+  ["FN-010", "Bentwood chair", "4", "145,00", "2026-10-12", "furniture"],
+  ["LT-011", "Desk spot", "9", "39,95", "2026-10-10", "lamps"],
+  ["AC-012", "Walnut bookend", "16", "28,50", "", "accessories"],
+  ["AC-012", "Walnut bookend, revised", "18", "29,00", "", "accessories"],
+  ["FN-014", "Open shelf", "3", "210,00", "2026-10-25", "furniture"],
+  ["LT-015", "Wall sconce", "8", "62,50", "2026-02-30", "lighting"],
+  ["AC-016", "Cotton throw", "23", "42,00", "", "accessories"],
+  ["FN-017", "Folding desk", "2", "189,00", "2026-10-30", "furniture"],
+  ["LT-018", "Ceramic lamp", "5", "54,995", "2026-10-16", "lighting"],
+  ["AC-019", "Cork coasters", "36", "12,00", "", "accessories"],
+  ["FN-020", "Entryway bench", "-2", "175,00", "2026-10-20", "furniture"],
+  ["LT-021", "Clip reading lamp", "14", "27,90", "2026-10-09", "lighting"],
+  ["AC-022", "Travel mirror", "25", "16,80", "", "accessories"],
+  ["FN-023", "Narrow console", "2", "240,00", "2026-10-27", "furniture"],
+  ["  LT-024  ", "Portable lantern", "11", "45,00", "", "lighting"],
+  ["AC-025", "Desk organizer", "18", "21,50", "", "accessories"],
+  ["FN-026", "", "4", "98,00", "2026-10-22", "furniture"],
+  ["LT-027", "Linen shade", "17", "29,90", "", "lighting"],
+  ["AC-028", "Small wall clock", "9", "34,00", "", "accessories"],
+  ["FN-029", "Maple nightstand", "6", "119,00", "2026-10-19", "furniture"],
+  ["AC-030", "Felt storage box", "12", "$ 19.50", "", "accessories"],
+  ["LT-031", "Rail spotlight", "8", "72,00", "2026-10-21", "lighting"],
+  ["AC-032", "Wooden hooks, set of 3", "31", "15,00", "", "accessories"],
+];
+export const DEMO_CSV = Papa.unparse([
+  ["Item code", "Item name", "Available", "Cost (EUR)", "ETA", "Group"],
+  ...products,
+]);
+export function loadDemo() {
+  const data = parseCSV(DEMO_CSV, "atelier-supply-september.csv");
+  const plan: Plan = localPlan(data);
+  plan.mappings = plan.mappings.map((m) => ({
+    ...m,
+    decimal: m.target === "unit_price" ? "comma" : "dot",
+  }));
+  return { data, plan };
+}

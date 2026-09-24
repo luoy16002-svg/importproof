@@ -1,0 +1,114 @@
+[
+  {
+    "sourceRow": 1,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "sku",
+        "original": "001",
+        "output": "001",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "product_name",
+        "original": "Café, lamp",
+        "output": "Café, lamp",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "quantity",
+        "original": "03",
+        "output": "3",
+        "overridden": false,
+        "steps": [
+          "Normalize whole number"
+        ]
+      },
+      {
+        "field": "unit_price",
+        "source": "unit_price",
+        "original": "49.90",
+        "output": "49.90",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "restock_date",
+        "source": "restock_date",
+        "original": "2026-10-04",
+        "output": "2026-10-04",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "category",
+        "original": "lighting",
+        "output": "lighting",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 2,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "sku",
+        "original": "002",
+        "output": "002",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "product_name",
+        "original": "=1+1",
+        "output": "=1+1",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "quantity",
+        "original": "0",
+        "output": "0",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "unit_price",
+        "original": "0.10",
+        "output": "0.10",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "restock_date",
+        "source": "restock_date",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "category",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  }
+]

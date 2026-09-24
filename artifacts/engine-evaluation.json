@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-09-24T04:35:28.315Z",
+  "seed": 20260924,
+  "type": "Synthetic deterministic-engine validation. Not a real-user study or a model-quality comparison.",
+  "cases": [
+    {
+      "locale": "dot",
+      "total": 1000,
+      "expectedHeld": 306,
+      "accepted": 694,
+      "held": 306,
+      "unexpectedlyAccepted": [],
+      "unexpectedlyHeld": [],
+      "wrongAcceptedValues": [],
+      "rowAccounting": true,
+      "parseAndValidateMs": 18.12
+    },
+    {
+      "locale": "comma",
+      "total": 1000,
+      "expectedHeld": 306,
+      "accepted": 694,
+      "held": 306,
+      "unexpectedlyAccepted": [],
+      "unexpectedlyHeld": [],
+      "wrongAcceptedValues": [],
+      "rowAccounting": true,
+      "parseAndValidateMs": 14.15
+    }
+  ],
+  "modelCalls": 0,
+  "limits": "Explicit correct recipe supplied to engine; does not measure whether an AI discovers that recipe. Locale ambiguity, pricing scale and schema scope remain visible user decisions."
+}

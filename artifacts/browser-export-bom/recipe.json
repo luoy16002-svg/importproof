@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "source": "utf8-bom-test.csv",
+  "sourceSha256": "8cb9d87cd0cdb6305eb1a37cd1b3dbd8c706ec1d71ac4d1851c8e3a15fdd3a2e",
+  "plan": {
+    "version": 1,
+    "mappings": [
+      {
+        "target": "sku",
+        "source": "sku",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "dot",
+        "dateOrder": "reject",
+        "aliases": {}
+      },
+      {
+        "target": "product_name",
+        "source": "product_name",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "dot",
+        "dateOrder": "reject",
+        "aliases": {}
+      },
+      {
+        "target": "quantity",
+        "source": "quantity",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "dot",
+        "dateOrder": "reject",
+        "aliases": {}
+      },
+      {
+        "target": "unit_price",
+        "source": "unit_price",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "dot",
+        "dateOrder": "reject",
+        "aliases": {}
+      },
+      {
+        "target": "restock_date",
+        "source": "restock_date",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "dot",
+        "dateOrder": "reject",
+        "aliases": {}
+      },
+      {
+        "target": "category",
+        "source": "category",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "dot",
+        "dateOrder": "reject",
+        "aliases": {}
+      }
+    ]
+  },
+  "resolutions": []
+}

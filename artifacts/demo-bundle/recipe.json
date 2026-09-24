@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "source": "atelier-supply-september.csv",
+  "sourceSha256": "3d8a23b665c44c9a495947d1263a1e5466402f65ecef20d31789af056565e53a",
+  "plan": {
+    "version": 1,
+    "mappings": [
+      {
+        "target": "sku",
+        "source": "Item code",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "dot",
+        "dateOrder": "reject",
+        "aliases": {}
+      },
+      {
+        "target": "product_name",
+        "source": "Item name",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "dot",
+        "dateOrder": "reject",
+        "aliases": {}
+      },
+      {
+        "target": "quantity",
+        "source": "Available",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "dot",
+        "dateOrder": "reject",
+        "aliases": {}
+      },
+      {
+        "target": "unit_price",
+        "source": "Cost (EUR)",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "comma",
+        "dateOrder": "reject",
+        "aliases": {}
+      },
+      {
+        "target": "restock_date",
+        "source": "ETA",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "dot",
+        "dateOrder": "reject",
+        "aliases": {}
+      },
+      {
+        "target": "category",
+        "source": "Group",
+        "trim": true,
+        "casing": "keep",
+        "decimal": "dot",
+        "dateOrder": "reject",
+        "aliases": {}
+      }
+    ]
+  },
+  "resolutions": []
+}

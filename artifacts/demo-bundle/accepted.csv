@@ -1,0 +1,23 @@
+sku,product_name,quantity,unit_price,restock_date,category
+LT-001,Arc table lamp,12,49.90,2026-10-04,lighting
+LT-002,Paper lantern,8,24.50,2026-10-08,lighting
+FN-003,Oak side table,4,129.00,2026-10-14,furniture
+AC-004,Stoneware tray,20,18.00,,accessories
+AC-007,Woven basket,15,32.40,2026-10-12,accessories
+LT-008,Globe pendant,7,118.00,2026-10-18,lighting
+AC-009,Glass carafe,10,22.90,,accessories
+FN-010,Bentwood chair,4,145.00,2026-10-12,furniture
+FN-014,Open shelf,3,210.00,2026-10-25,furniture
+AC-016,Cotton throw,23,42.00,,accessories
+FN-017,Folding desk,2,189.00,2026-10-30,furniture
+AC-019,Cork coasters,36,12.00,,accessories
+LT-021,Clip reading lamp,14,27.90,2026-10-09,lighting
+AC-022,Travel mirror,25,16.80,,accessories
+FN-023,Narrow console,2,240.00,2026-10-27,furniture
+LT-024,Portable lantern,11,45.00,,lighting
+AC-025,Desk organizer,18,21.50,,accessories
+LT-027,Linen shade,17,29.90,,lighting
+AC-028,Small wall clock,9,34.00,,accessories
+FN-029,Maple nightstand,6,119.00,2026-10-19,furniture
+LT-031,Rail spotlight,8,72.00,2026-10-21,lighting
+AC-032,"Wooden hooks, set of 3",31,15.00,,accessories

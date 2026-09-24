@@ -1,0 +1,17 @@
+{
+  "tool": "ImportProof",
+  "version": "0.1.0",
+  "createdAt": "2026-09-24T04:35:28.306Z",
+  "source": "atelier-supply-september.csv",
+  "sourceSha256": "3d8a23b665c44c9a495947d1263a1e5466402f65ecef20d31789af056565e53a",
+  "recipeSha256": "3c82c6d08a552018694754a3c7e3ba92e069e76df2e94d195d4f7511455285d1",
+  "canonicalSha256": "ed58fc920a7859e365c41c8783bdaad4db46e3daf079eb738bfa57b22e8a4cd3",
+  "totalRows": 32,
+  "acceptedRows": 22,
+  "rejectedRows": 10,
+  "changedCells": 34,
+  "reviewedCorrections": 0,
+  "conservationCheck": true,
+  "currency": "EUR",
+  "note": "All CSV cells are formula-neutralized where needed. canonical.json preserves the exact target strings. Original source is preserved as .txt to avoid accidental spreadsheet execution. Hashes verify byte equality, not source authenticity."
+}

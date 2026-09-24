@@ -1,0 +1,11 @@
+_source_row,_issues,Item code,Item name,Available,Cost (EUR),ETA,Group
+5,restock_date: Ambiguous day/month. Choose DMY or MDY explicitly.,LT-005,Brass reading light,6,"85,75",04/10/2026,lighting
+6,quantity: A safe whole number is required; decimals and text are not guessed.,FN-006,Linen stool,three,"65,00",2026-10-15,furniture
+11,"category: Choose an explicit alias to lighting, furniture, accessories.",LT-011,Desk spot,9,"39,95",2026-10-10,lamps
+12,"sku: Duplicate key in data rows 12, 13. All copies held for review.",AC-012,Walnut bookend,16,"28,50",,accessories
+13,"sku: Duplicate key in data rows 12, 13. All copies held for review.",AC-012,"Walnut bookend, revised",18,"29,00",,accessories
+15,restock_date: This is not a valid calendar date between 1900 and 2199.,LT-015,Wall sconce,8,"62,50",2026-02-30,lighting
+18,unit_price: More than two decimal places. No automatic rounding is allowed.,LT-018,Ceramic lamp,5,"54,995",2026-10-16,lighting
+20,quantity: Must be 0 or greater.,FN-020,Entryway bench,'-2,"175,00",2026-10-20,furniture
+26,product_name: Required value is missing.,FN-026,,4,"98,00",2026-10-22,furniture
+30,"unit_price: Use 1.234,56 notation; currency must match the contract.",AC-030,Felt storage box,12,$ 19.50,,accessories

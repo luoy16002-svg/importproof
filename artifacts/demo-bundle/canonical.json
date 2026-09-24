@@ -1,0 +1,244 @@
+[
+  {
+    "sourceRow": 1,
+    "values": {
+      "sku": "LT-001",
+      "product_name": "Arc table lamp",
+      "quantity": "12",
+      "unit_price": "49.90",
+      "restock_date": "2026-10-04",
+      "category": "lighting"
+    }
+  },
+  {
+    "sourceRow": 2,
+    "values": {
+      "sku": "LT-002",
+      "product_name": "Paper lantern",
+      "quantity": "8",
+      "unit_price": "24.50",
+      "restock_date": "2026-10-08",
+      "category": "lighting"
+    }
+  },
+  {
+    "sourceRow": 3,
+    "values": {
+      "sku": "FN-003",
+      "product_name": "Oak side table",
+      "quantity": "4",
+      "unit_price": "129.00",
+      "restock_date": "2026-10-14",
+      "category": "furniture"
+    }
+  },
+  {
+    "sourceRow": 4,
+    "values": {
+      "sku": "AC-004",
+      "product_name": "Stoneware tray",
+      "quantity": "20",
+      "unit_price": "18.00",
+      "restock_date": "",
+      "category": "accessories"
+    }
+  },
+  {
+    "sourceRow": 7,
+    "values": {
+      "sku": "AC-007",
+      "product_name": "Woven basket",
+      "quantity": "15",
+      "unit_price": "32.40",
+      "restock_date": "2026-10-12",
+      "category": "accessories"
+    }
+  },
+  {
+    "sourceRow": 8,
+    "values": {
+      "sku": "LT-008",
+      "product_name": "Globe pendant",
+      "quantity": "7",
+      "unit_price": "118.00",
+      "restock_date": "2026-10-18",
+      "category": "lighting"
+    }
+  },
+  {
+    "sourceRow": 9,
+    "values": {
+      "sku": "AC-009",
+      "product_name": "Glass carafe",
+      "quantity": "10",
+      "unit_price": "22.90",
+      "restock_date": "",
+      "category": "accessories"
+    }
+  },
+  {
+    "sourceRow": 10,
+    "values": {
+      "sku": "FN-010",
+      "product_name": "Bentwood chair",
+      "quantity": "4",
+      "unit_price": "145.00",
+      "restock_date": "2026-10-12",
+      "category": "furniture"
+    }
+  },
+  {
+    "sourceRow": 14,
+    "values": {
+      "sku": "FN-014",
+      "product_name": "Open shelf",
+      "quantity": "3",
+      "unit_price": "210.00",
+      "restock_date": "2026-10-25",
+      "category": "furniture"
+    }
+  },
+  {
+    "sourceRow": 16,
+    "values": {
+      "sku": "AC-016",
+      "product_name": "Cotton throw",
+      "quantity": "23",
+      "unit_price": "42.00",
+      "restock_date": "",
+      "category": "accessories"
+    }
+  },
+  {
+    "sourceRow": 17,
+    "values": {
+      "sku": "FN-017",
+      "product_name": "Folding desk",
+      "quantity": "2",
+      "unit_price": "189.00",
+      "restock_date": "2026-10-30",
+      "category": "furniture"
+    }
+  },
+  {
+    "sourceRow": 19,
+    "values": {
+      "sku": "AC-019",
+      "product_name": "Cork coasters",
+      "quantity": "36",
+      "unit_price": "12.00",
+      "restock_date": "",
+      "category": "accessories"
+    }
+  },
+  {
+    "sourceRow": 21,
+    "values": {
+      "sku": "LT-021",
+      "product_name": "Clip reading lamp",
+      "quantity": "14",
+      "unit_price": "27.90",
+      "restock_date": "2026-10-09",
+      "category": "lighting"
+    }
+  },
+  {
+    "sourceRow": 22,
+    "values": {
+      "sku": "AC-022",
+      "product_name": "Travel mirror",
+      "quantity": "25",
+      "unit_price": "16.80",
+      "restock_date": "",
+      "category": "accessories"
+    }
+  },
+  {
+    "sourceRow": 23,
+    "values": {
+      "sku": "FN-023",
+      "product_name": "Narrow console",
+      "quantity": "2",
+      "unit_price": "240.00",
+      "restock_date": "2026-10-27",
+      "category": "furniture"
+    }
+  },
+  {
+    "sourceRow": 24,
+    "values": {
+      "sku": "LT-024",
+      "product_name": "Portable lantern",
+      "quantity": "11",
+      "unit_price": "45.00",
+      "restock_date": "",
+      "category": "lighting"
+    }
+  },
+  {
+    "sourceRow": 25,
+    "values": {
+      "sku": "AC-025",
+      "product_name": "Desk organizer",
+      "quantity": "18",
+      "unit_price": "21.50",
+      "restock_date": "",
+      "category": "accessories"
+    }
+  },
+  {
+    "sourceRow": 27,
+    "values": {
+      "sku": "LT-027",
+      "product_name": "Linen shade",
+      "quantity": "17",
+      "unit_price": "29.90",
+      "restock_date": "",
+      "category": "lighting"
+    }
+  },
+  {
+    "sourceRow": 28,
+    "values": {
+      "sku": "AC-028",
+      "product_name": "Small wall clock",
+      "quantity": "9",
+      "unit_price": "34.00",
+      "restock_date": "",
+      "category": "accessories"
+    }
+  },
+  {
+    "sourceRow": 29,
+    "values": {
+      "sku": "FN-029",
+      "product_name": "Maple nightstand",
+      "quantity": "6",
+      "unit_price": "119.00",
+      "restock_date": "2026-10-19",
+      "category": "furniture"
+    }
+  },
+  {
+    "sourceRow": 31,
+    "values": {
+      "sku": "LT-031",
+      "product_name": "Rail spotlight",
+      "quantity": "8",
+      "unit_price": "72.00",
+      "restock_date": "2026-10-21",
+      "category": "lighting"
+    }
+  },
+  {
+    "sourceRow": 32,
+    "values": {
+      "sku": "AC-032",
+      "product_name": "Wooden hooks, set of 3",
+      "quantity": "31",
+      "unit_price": "15.00",
+      "restock_date": "",
+      "category": "accessories"
+    }
+  }
+]

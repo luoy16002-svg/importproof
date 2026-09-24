@@ -1,0 +1,17 @@
+{
+  "tool": "ImportProof",
+  "version": "0.1.0",
+  "createdAt": "2026-09-24T04:39:16.017Z",
+  "source": "utf8-bom-test.csv",
+  "sourceSha256": "8cb9d87cd0cdb6305eb1a37cd1b3dbd8c706ec1d71ac4d1851c8e3a15fdd3a2e",
+  "recipeSha256": "7036a98c697791b90b64f7f600730c686246fb563e1b054773c236a99ca25e8d",
+  "canonicalSha256": "c1866d1855ff6c54857d9af75960b75cf3d7b60b08483547c5f8a2e2ffc6de43",
+  "totalRows": 2,
+  "acceptedRows": 2,
+  "rejectedRows": 0,
+  "changedCells": 1,
+  "reviewedCorrections": 0,
+  "conservationCheck": true,
+  "currency": "EUR",
+  "note": "All CSV cells are formula-neutralized where needed. canonical.json preserves the exact target strings. Original source is preserved as .txt to avoid accidental spreadsheet execution. Hashes verify byte equality, not source authenticity."
+}

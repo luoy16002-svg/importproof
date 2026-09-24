@@ -1,0 +1,1890 @@
+[
+  {
+    "sourceRow": 1,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "LT-001",
+        "output": "LT-001",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Arc table lamp",
+        "output": "Arc table lamp",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "12",
+        "output": "12",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "€ 49,90",
+        "output": "49.90",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-04",
+        "output": "2026-10-04",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "lighting",
+        "output": "lighting",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 2,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "LT-002",
+        "output": "LT-002",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Paper lantern",
+        "output": "Paper lantern",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "8",
+        "output": "8",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "24,50",
+        "output": "24.50",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-08",
+        "output": "2026-10-08",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "lighting",
+        "output": "lighting",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 3,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "FN-003",
+        "output": "FN-003",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Oak side table",
+        "output": "Oak side table",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "04",
+        "output": "4",
+        "overridden": false,
+        "steps": [
+          "Normalize whole number"
+        ]
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "129,00",
+        "output": "129.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "14/10/2026",
+        "output": "2026-10-14",
+        "overridden": false,
+        "steps": [
+          "Convert validated date to ISO"
+        ]
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "furniture",
+        "output": "furniture",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 4,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-004",
+        "output": "AC-004",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Stoneware tray",
+        "output": "Stoneware tray",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "20",
+        "output": "20",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "18,00",
+        "output": "18.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 5,
+    "accepted": false,
+    "issues": [
+      {
+        "field": "restock_date",
+        "code": "ambiguous_date",
+        "message": "Ambiguous day/month. Choose DMY or MDY explicitly."
+      }
+    ],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "LT-005",
+        "output": "LT-005",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Brass reading light",
+        "output": "Brass reading light",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "6",
+        "output": "6",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "85,75",
+        "output": "85.75",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "04/10/2026",
+        "output": "04/10/2026",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "lighting",
+        "output": "lighting",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 6,
+    "accepted": false,
+    "issues": [
+      {
+        "field": "quantity",
+        "code": "invalid_integer",
+        "message": "A safe whole number is required; decimals and text are not guessed."
+      }
+    ],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "FN-006",
+        "output": "FN-006",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Linen stool",
+        "output": "Linen stool",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "three",
+        "output": "three",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "65,00",
+        "output": "65.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-15",
+        "output": "2026-10-15",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "furniture",
+        "output": "furniture",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 7,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-007",
+        "output": "AC-007",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "  Woven basket  ",
+        "output": "Woven basket",
+        "overridden": false,
+        "steps": [
+          "Trim surrounding whitespace"
+        ]
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "15",
+        "output": "15",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "32,40",
+        "output": "32.40",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-12",
+        "output": "2026-10-12",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 8,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "LT-008",
+        "output": "LT-008",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Globe pendant",
+        "output": "Globe pendant",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "7",
+        "output": "7",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "118,00",
+        "output": "118.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-18",
+        "output": "2026-10-18",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "lighting",
+        "output": "lighting",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 9,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-009",
+        "output": "AC-009",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Glass carafe",
+        "output": "Glass carafe",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "10",
+        "output": "10",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "22,90",
+        "output": "22.90",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 10,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "FN-010",
+        "output": "FN-010",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Bentwood chair",
+        "output": "Bentwood chair",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "4",
+        "output": "4",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "145,00",
+        "output": "145.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-12",
+        "output": "2026-10-12",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "furniture",
+        "output": "furniture",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 11,
+    "accepted": false,
+    "issues": [
+      {
+        "field": "category",
+        "code": "invalid_enum",
+        "message": "Choose an explicit alias to lighting, furniture, accessories."
+      }
+    ],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "LT-011",
+        "output": "LT-011",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Desk spot",
+        "output": "Desk spot",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "9",
+        "output": "9",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "39,95",
+        "output": "39.95",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-10",
+        "output": "2026-10-10",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "lamps",
+        "output": "lamps",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 12,
+    "accepted": false,
+    "issues": [
+      {
+        "field": "sku",
+        "code": "duplicate",
+        "message": "Duplicate key in data rows 12, 13. All copies held for review."
+      }
+    ],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-012",
+        "output": "AC-012",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Walnut bookend",
+        "output": "Walnut bookend",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "16",
+        "output": "16",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "28,50",
+        "output": "28.50",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 13,
+    "accepted": false,
+    "issues": [
+      {
+        "field": "sku",
+        "code": "duplicate",
+        "message": "Duplicate key in data rows 12, 13. All copies held for review."
+      }
+    ],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-012",
+        "output": "AC-012",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Walnut bookend, revised",
+        "output": "Walnut bookend, revised",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "18",
+        "output": "18",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "29,00",
+        "output": "29.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 14,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "FN-014",
+        "output": "FN-014",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Open shelf",
+        "output": "Open shelf",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "3",
+        "output": "3",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "210,00",
+        "output": "210.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-25",
+        "output": "2026-10-25",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "furniture",
+        "output": "furniture",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 15,
+    "accepted": false,
+    "issues": [
+      {
+        "field": "restock_date",
+        "code": "invalid_date",
+        "message": "This is not a valid calendar date between 1900 and 2199."
+      }
+    ],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "LT-015",
+        "output": "LT-015",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Wall sconce",
+        "output": "Wall sconce",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "8",
+        "output": "8",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "62,50",
+        "output": "62.50",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-02-30",
+        "output": "2026-02-30",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "lighting",
+        "output": "lighting",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 16,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-016",
+        "output": "AC-016",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Cotton throw",
+        "output": "Cotton throw",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "23",
+        "output": "23",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "42,00",
+        "output": "42.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 17,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "FN-017",
+        "output": "FN-017",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Folding desk",
+        "output": "Folding desk",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "2",
+        "output": "2",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "189,00",
+        "output": "189.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-30",
+        "output": "2026-10-30",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "furniture",
+        "output": "furniture",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 18,
+    "accepted": false,
+    "issues": [
+      {
+        "field": "unit_price",
+        "code": "invalid_decimal",
+        "message": "More than two decimal places. No automatic rounding is allowed."
+      }
+    ],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "LT-018",
+        "output": "LT-018",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Ceramic lamp",
+        "output": "Ceramic lamp",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "5",
+        "output": "5",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "54,995",
+        "output": "54,995",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-16",
+        "output": "2026-10-16",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "lighting",
+        "output": "lighting",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 19,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-019",
+        "output": "AC-019",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Cork coasters",
+        "output": "Cork coasters",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "36",
+        "output": "36",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "12,00",
+        "output": "12.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 20,
+    "accepted": false,
+    "issues": [
+      {
+        "field": "quantity",
+        "code": "invalid_integer",
+        "message": "Must be 0 or greater."
+      }
+    ],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "FN-020",
+        "output": "FN-020",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Entryway bench",
+        "output": "Entryway bench",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "-2",
+        "output": "-2",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "175,00",
+        "output": "175.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-20",
+        "output": "2026-10-20",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "furniture",
+        "output": "furniture",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 21,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "LT-021",
+        "output": "LT-021",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Clip reading lamp",
+        "output": "Clip reading lamp",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "14",
+        "output": "14",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "27,90",
+        "output": "27.90",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-09",
+        "output": "2026-10-09",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "lighting",
+        "output": "lighting",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 22,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-022",
+        "output": "AC-022",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Travel mirror",
+        "output": "Travel mirror",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "25",
+        "output": "25",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "16,80",
+        "output": "16.80",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 23,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "FN-023",
+        "output": "FN-023",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Narrow console",
+        "output": "Narrow console",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "2",
+        "output": "2",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "240,00",
+        "output": "240.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-27",
+        "output": "2026-10-27",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "furniture",
+        "output": "furniture",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 24,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "  LT-024  ",
+        "output": "LT-024",
+        "overridden": false,
+        "steps": [
+          "Trim surrounding whitespace"
+        ]
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Portable lantern",
+        "output": "Portable lantern",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "11",
+        "output": "11",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "45,00",
+        "output": "45.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "lighting",
+        "output": "lighting",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 25,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-025",
+        "output": "AC-025",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Desk organizer",
+        "output": "Desk organizer",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "18",
+        "output": "18",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "21,50",
+        "output": "21.50",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 26,
+    "accepted": false,
+    "issues": [
+      {
+        "field": "product_name",
+        "code": "missing",
+        "message": "Required value is missing."
+      }
+    ],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "FN-026",
+        "output": "FN-026",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "4",
+        "output": "4",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "98,00",
+        "output": "98.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-22",
+        "output": "2026-10-22",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "furniture",
+        "output": "furniture",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 27,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "LT-027",
+        "output": "LT-027",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Linen shade",
+        "output": "Linen shade",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "17",
+        "output": "17",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "29,90",
+        "output": "29.90",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "lighting",
+        "output": "lighting",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 28,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-028",
+        "output": "AC-028",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Small wall clock",
+        "output": "Small wall clock",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "9",
+        "output": "9",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "34,00",
+        "output": "34.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 29,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "FN-029",
+        "output": "FN-029",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Maple nightstand",
+        "output": "Maple nightstand",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "6",
+        "output": "6",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "119,00",
+        "output": "119.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-19",
+        "output": "2026-10-19",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "furniture",
+        "output": "furniture",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 30,
+    "accepted": false,
+    "issues": [
+      {
+        "field": "unit_price",
+        "code": "invalid_decimal",
+        "message": "Use 1.234,56 notation; currency must match the contract."
+      }
+    ],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-030",
+        "output": "AC-030",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Felt storage box",
+        "output": "Felt storage box",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "12",
+        "output": "12",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "$ 19.50",
+        "output": "$ 19.50",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 31,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "LT-031",
+        "output": "LT-031",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Rail spotlight",
+        "output": "Rail spotlight",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "8",
+        "output": "8",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "72,00",
+        "output": "72.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "2026-10-21",
+        "output": "2026-10-21",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "lighting",
+        "output": "lighting",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "sourceRow": 32,
+    "accepted": true,
+    "issues": [],
+    "cells": [
+      {
+        "field": "sku",
+        "source": "Item code",
+        "original": "AC-032",
+        "output": "AC-032",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "product_name",
+        "source": "Item name",
+        "original": "Wooden hooks, set of 3",
+        "output": "Wooden hooks, set of 3",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "quantity",
+        "source": "Available",
+        "original": "31",
+        "output": "31",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "unit_price",
+        "source": "Cost (EUR)",
+        "original": "15,00",
+        "output": "15.00",
+        "overridden": false,
+        "steps": [
+          "Parse comma-decimal amount exactly"
+        ]
+      },
+      {
+        "field": "restock_date",
+        "source": "ETA",
+        "original": "",
+        "output": "",
+        "overridden": false,
+        "steps": []
+      },
+      {
+        "field": "category",
+        "source": "Group",
+        "original": "accessories",
+        "output": "accessories",
+        "overridden": false,
+        "steps": []
+      }
+    ]
+  }
+]

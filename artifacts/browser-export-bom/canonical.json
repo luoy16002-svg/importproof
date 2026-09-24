@@ -1,0 +1,24 @@
+[
+  {
+    "sourceRow": 1,
+    "values": {
+      "sku": "001",
+      "product_name": "Café, lamp",
+      "quantity": "3",
+      "unit_price": "49.90",
+      "restock_date": "2026-10-04",
+      "category": "lighting"
+    }
+  },
+  {
+    "sourceRow": 2,
+    "values": {
+      "sku": "002",
+      "product_name": "=1+1",
+      "quantity": "0",
+      "unit_price": "0.10",
+      "restock_date": "",
+      "category": "accessories"
+    }
+  }
+]
